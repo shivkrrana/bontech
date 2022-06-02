@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem 0rem;
+    
+}
+
+.card-container{
+    border: 1px solid rgb(100, 98, 98);
+    width: 25rem;
+    margin: 2rem 2rem;
+    border: 1.4rem solid white;
+    box-shadow: 0 1rem 1rem  rgba(0,0,0,0.4); 
+    overflow: hidden;
+}
+.img-box{
+    height:14.0rem;
+    /* height: auto; */
+    width:25rem;
+    
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+.text{
+    padding: 1rem 1.5rem;
+    background: rgb(245, 244, 244);
+    height: 18rem;
+}
+h1{
+    font-size: 1.7rem;
+    margin:0.4rem 0;
+}
+p{
+    font-size: 1.2rem;
+
+}
