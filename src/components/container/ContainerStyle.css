@@ -24,7 +24,7 @@ header .logo {
 
 
 header input{
-    /* width: 18rem; */
+    width: 70%;
   padding: 0.7rem;
   /* height: 4rem; */
   font-size: 1.5rem;
@@ -50,3 +50,14 @@ button{
 button:hover{
     background: rgb(154, 153, 153);
 }
+@media only screen and (max-width: 600px) {
+    header {
+      padding: 1rem 5rem;
+    }
+    header input{
+        width: 50%;
+    }
+    html{
+        font-size: 50%;
+    }
+  }
