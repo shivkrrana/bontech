@@ -17,7 +17,7 @@ function Container() {
   }
 
   const submitKey = (e) => {
-    if (e.key == 'Enter') {
+    if (e.key === 'Enter') {
       if (value.length > 2) {
         const key = "AIzaSyA6cJT1EICzO5YPSy0CDA1JUJsIU309Wak";
         setTimeout(async () => {
@@ -49,7 +49,7 @@ function Container() {
     <>
       <header className="test">
         <img className='logo' src='assets/logo.png' alt='logo'></img>
-        <div>
+        <div >
           <input type="text" placeholder='Search' onChange={handleInput} onKeyDown={submitKey} />
           <button onClick={submitClick}>Search</button>
         </div>

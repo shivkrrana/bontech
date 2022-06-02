@@ -24,7 +24,7 @@ header .logo {
 
 
 header input{
-    width: 70%;
+    /* width: 70%; */
   padding: 0.7rem;
   /* height: 4rem; */
   font-size: 1.5rem;
@@ -55,7 +55,7 @@ button:hover{
       padding: 1rem 5rem;
     }
     header input{
-        width: 50%;
+        /* width: 50%; */
     }
     html{
         font-size: 50%;
