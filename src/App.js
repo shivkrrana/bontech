@@ -1,12 +1,13 @@
 import React from 'react'
-import Container from './components/container/Container'
+import Navbar from './components/navbar/Navbar'
+import Content from "./components/content/Content"
 
 
 export default function App() {
   return (
     <>
-    <Container/>
-    
+    <Navbar/>
+    <Content/>
     </>
   )
 }

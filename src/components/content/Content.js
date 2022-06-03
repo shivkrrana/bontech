@@ -1,9 +1,12 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 import "./contentStyle.css"
 
  function Content(props) {
+     const apiState = useSelector((state)=>state.apiCall)
      
-    const result = props.data;
+    const result = apiState;
+    
 return  (  
      <div className='content'>  
      
@@ -14,7 +17,7 @@ return  (
                 
                 <div className='card-container'>
                     <div className='img-box'>
-                        <img src={item.snippet.thumbnails.high.url}/>
+                        <img src={item.snippet.thumbnails.high.url} alt={"youtube thumbnail"}/>
                     </div>
                     <div className='text'>
                         <h1>{item.snippet.title}</h1>
